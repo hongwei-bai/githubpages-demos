@@ -1,0 +1,26 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+.task-list-item {
+    position: relative;
+}
+
+.task-list-item-checkbox {
+    position: absolute;
+    left: -23px;
+    top: 7px;
+}
+
+.task-list-item-checkbox:before {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid #333;
+    background: #fff
+}
